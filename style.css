@@ -1,0 +1,88 @@
+/* Global styles */
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #f5f5f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header section */
+header {
+  background-color: #1a1a1a;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+}
+
+a {
+  color: #00aaff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Main content */
+main {
+  width: 80%;
+  max-width: 1000px;
+  margin: 30px auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #0077cc;
+  border-bottom: 2px solid #0077cc;
+  padding-bottom: 5px;
+}
+
+section {
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 10px;
+}
+
+.skills-grid li {
+  background: #0077cc;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.project {
+  background: #f2f8ff;
+  padding: 15px;
+  border-left: 5px solid #0077cc;
+  margin-bottom: 15px;
+}
+
+footer {
+  background: #1a1a1a;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 30px;
+}
